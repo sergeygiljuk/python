@@ -1,0 +1,16 @@
+my_list = list(input("Вас приветствует Jarvis v0.1. Введите элементы списка: "))
+emp_list = list()
+while len(my_list) != 0:
+	if len(my_list) > 1:
+		a = my_list.pop(0)
+		b = my_list.pop(0)
+		emp_list.append(b)
+		emp_list.append(a)
+		print(a + b)
+		print(my_list)
+		print(emp_list)
+	else: 
+		a = my_list.pop(0)
+		emp_list.append(a)
+print(f"Итоговый список: {emp_list}")
+print("Jarvis v0.1 завершает свою работу.")
