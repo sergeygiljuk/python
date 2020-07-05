@@ -1,0 +1,3 @@
+my_list = [1, 1.2, "string", complex(1, 3), False, None, [1, 2], dict(k1 = 'v1', k2 = 'v2'), ("2", 1.2, 3), set("ssa2")]
+for i in my_list:
+	print(type(i))
