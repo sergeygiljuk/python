@@ -1,0 +1,12 @@
+my_list = [5, 4, 3, 2]
+length = len(my_list)
+answ = float(input("Вас приветствует Jarvis v0.5. Введите натуральное число: "))
+my_list2 = []
+while len(my_list) != 0:
+	box = my_list.pop(0)
+	my_list2.append(box)
+	if answ == box:
+		my_list2.append(answ)
+if length == len(my_list2):
+	my_list2 = [answ] + my_list2
+print(f"{my_list2}\nJarvis v0.5 завершает свою работу.")
