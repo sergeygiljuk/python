@@ -1,0 +1,6 @@
+user_answ = input("Вас приветствует Jarvis v0.4. Введите строчку черезе пробел: ")
+my_list = user_answ.split( )
+for i in my_list:
+	print(f"Строка номер {my_list.index(i) + 1}: {i[:10]}")
+
+print("Jarvis v0.4 завершает свою работу.")
